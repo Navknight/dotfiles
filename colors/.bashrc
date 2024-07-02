@@ -99,3 +99,8 @@ export LESS_TERMCAP_so=$'\e[01;34m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;34m'
 
+
+
+# Hishtory Config:
+export PATH="$PATH:/home/navknight/.hishtory"
+source /home/navknight/.hishtory/config.sh
