@@ -104,3 +104,6 @@ export LESS_TERMCAP_us=$'\e[1;4;34m'
 # Hishtory Config:
 export PATH="$PATH:/home/navknight/.hishtory"
 source /home/navknight/.hishtory/config.sh
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
