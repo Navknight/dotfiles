@@ -1,0 +1,12 @@
+[Unit]
+Description=My Custom Script on Shutdown/Restart
+DefaultDependencies=no
+Before=shutdown.target reboot.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/navknight/Github/dotfiles/soundscript.sh
+
+[Install]
+WantedBy=shutdown.target reboot.target
+
